@@ -38,7 +38,7 @@ So, let’s try showing the time on the display. We aren’t keeping time yet bu
 5. Finally, stick in a show string below the set to. Switch the text inside to the variable time.
 6. Download the code to you micro:bit and give it a shake. Did you see the time of “0:0” go by on the LEDs?
 
-![](step-2-pic.png)
+![](step-3-whole.png)
 
 ### Step 3 - Set the time with buttons
 
