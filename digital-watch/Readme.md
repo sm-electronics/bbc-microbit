@@ -25,3 +25,5 @@ We need to make some variables to keep track of the time and for a few other thi
 3. Repeat this 4 more times to make variables named minutes, time, adjust, and ampm.
 4. Now, for the set to block for time, go to Text and drag a " " in and replace the 0.
 5. For the ampm variable, change the 0 there to a false from the Logic catagory.
+
+![](step-1-pic.png)
