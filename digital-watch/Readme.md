@@ -1,4 +1,5 @@
-# Build your own micro:bit watch from an old pair of jeans and T-shirt
+# Digital Watch
+> Build your own micro:bit watch from an old pair of jeans and T-shirt
 
 ### Materials
  - micro:bit, battery holder and 2 AAA batteries
@@ -15,9 +16,7 @@
 2. Digital watch
 
 
-### Digital Watch
-
-**1. Step 1 - Create the time variables**
+### 1. Step 1 - Create the time variables
 
 We need to make some variables to keep track of the time and for a few other things.
 1. Go into Basic in the toolbox and pull an on start on to the workspace.
