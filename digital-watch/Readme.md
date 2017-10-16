@@ -17,7 +17,7 @@
 
 ### Digital Watch
 
-1. Step 1 - Create the time variables
+**1. Step 1 - Create the time variables**
 
 We need to make some variables to keep track of the time and for a few other things.
 1. Go into Basic in the toolbox and pull an on start on to the workspace.
