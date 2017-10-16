@@ -45,50 +45,49 @@ So, let’s try showing the time on the display. We aren’t keeping time yet bu
 There has to be a way to set the time on your watch. We’ll use the buttons to set the current time. One button is for setting the hours and another button is for the minutes.
 Set the hours
 
-Let’s make a way to set the hours for the watch.
+**Let’s make a way to set the hours for the watch.**
 
-    In Input, find an on button pressed an put it somewhere on the workspace.
-    Get an if then else block from Logic and put it in the on button pressed.
-    From the same Logic category, get a 0 < 0 and relpace the false condition with it.
-    Change the left 0 in the condtion to the hours variable. Change 0 on the right to 23. This limits our hour count to 23 hours.
-    In the then section, put a change by there. Select the hours variable name from the dropdown.
-    In the else section, put a set to there. Select the hours variable name from the dropdown and leave the 0.
+1. In Input, find an on button pressed an put it somewhere on the workspace.
+2. Get an if then else block from Logic and put it in the on button pressed.
+3. From the same Logic category, get a 0 < 0 and relpace the false condition with it.
+4. Change the left 0 in the condtion to the hours variable. Change 0 on the right to 23. This limits our hour count to 23 hours.
+5. In the then section, put a change by there. Select the hours variable name from the dropdown.
+6. In the else section, put a set to there. Select the hours variable name from the dropdown and leave the 0.
 
-Set the minutes
+**Set the minutes**
 
 Setting minutes is almost the same as setting hours but with just a few changes.
 
-    To make things easy, right click on on button pressed block and select the Duplicate option in the menu. This makes a copy of the original block.
-    In the new on button pressed, change the button to B.
-    Change every variable name from hours to minutes. Change the 23 in the if condition to 59. This is the limit of minutes we count.
+1. To make things easy, right click on on button pressed block and select the Duplicate option in the menu. This makes a copy of the original block.
+2. In the new on button pressed, change the button to B.
+3. Change every variable name from hours to minutes. Change the 23 in the if condition to 59. This is the limit of minutes we count.
 
-Select 24 hour or 12 hour time
+**Select 24 hour or 12 hour time**
 
 Time is shown in either 24 hour or 12 hour format. We’ll use one more button to choose which format to show. Using the 12 hour format adds an ‘AM’ or ‘PM’ at the end.
 
-    In Input, get an on button pressed an put it on the workspace. Change the button to A+B.
-    Grab a set to, put it in the block and change the variable to ampm. Put a not from Logic in where the 0 is.
-    Pick up a ampm from Variables and connect it on the right of the not. This switches our 24 hour format to 12 hour and back.
+1. In Input, get an on button pressed an put it on the workspace. Change the button to A+B.
+2. Grab a set to, put it in the block and change the variable to ampm. Put a not from Logic in where the 0 is.
+3. Pick up a ampm from Variables and connect it on the right of the not. This switches our 24 hour format to 12 hour and back.
 
-Make the timer tick
+**Make the timer tick**
 
 A watch really has three parts: the display, settings, and timer. We need a way to make the minutes and hours count up at the right time. Let’s code the timer.
 
-    In Basic, get a forever loop out to the workspace.
-    Also in Basic, take out a pause an put it into the loop. Change the time from 100 to 60000. The time is in milliseconds so we want to count each minute every 60000 milliseconds.
-    Below the pause, put a if then else block. Change the condition in the if to use a 0 < 0.
-    Replace the 0 on the left with the minutes variable. Change the 0 on the right to 59.
-    Put a change by into the then. Change the variable to minutes.
-    Get a set to and put it in the else. Again, change the variable to minutes.
+1. In Basic, get a forever loop out to the workspace.
+2. Also in Basic, take out a pause an put it into the loop. Change the time from 100 to 60000. The time is in milliseconds so we want to count each minute every 60000 milliseconds.
+3. Below the pause, put a if then else block. Change the condition in the if to use a 0 < 0.
+4. Replace the 0 on the left with the minutes variable. Change the 0 on the right to 59.
+5. Put a change by into the then. Change the variable to minutes.
+6. Get a set to and put it in the else. Again, change the variable to minutes.
 
-Keep on coding…
+**Keep on coding…***
+1. Now, take another if then else and put it just below the set to inside the first else.
+2. In the second if, put in a 0 < 0 as the condition. Replace the left 0 with the hours variable. Change the right 0 to 23. We count hours up to 23 until we go back to 0 (midnight).
+3. Put a change by into the second then. Change the variable to hours.
+4. Get a set to and put it in the second else. Again, change the variable to hours. Ok, the timer’s ready to tick.
 
-    Now, take another if then else and put it just below the set to inside the first else.
-    In the second if, put in a 0 < 0 as the condition. Replace the left 0 with the hours variable. Change the right 0 to 23. We count hours up to 23 until we go back to 0 (midnight).
-    Put a change by into the second then. Change the variable to hours.
-    Get a set to and put it in the second else. Again, change the variable to hours. Ok, the timer’s ready to tick.
-
-Shake and show…the time!
+**Shake and show…the time!**
 
 We’re going back to the display code we made earlier. We’ll now make it show the real time! This step is going to be busy but we’ll get it done.
 
