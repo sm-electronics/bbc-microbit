@@ -1,3 +1,8 @@
+/** 
+ * Digital Clock Implementation in Code Blocks for kids
+ * 
+ * 
+*/
 let minutes = 0
 let hours = 0
 let time = ""
