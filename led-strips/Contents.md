@@ -6,4 +6,5 @@
 3. 3 Jumper wires
 
 ### Drivers: 
- - Neopixel from Arduino
+ - [Neopixel from Arduino](https://github.com/adafruit/Adafruit_NeoPixel)
+ - [FastLED Library](http://fastled.io/)
