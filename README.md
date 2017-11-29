@@ -16,3 +16,4 @@ NOTE: During installation it takes the Arduino IDE a few minutes to extract the 
 
 ### Resources
 1. [BBC Microbit Software Stack](http://mattwarren.org/2017/11/28/Exploring-the-BBC-microbit-Software-Stack/)
+2. [Awesome BBC-Microbit](https://github.com/carlosperate/awesome-microbit#programming)
