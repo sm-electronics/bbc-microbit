@@ -13,3 +13,6 @@ Board Manager
     Select your nRF5 board from the Tools -> Board menu
 
 NOTE: During installation it takes the Arduino IDE a few minutes to extract the tools after they have been downloaded, please be patient.
+
+### Resources
+1. [BBC Microbit Software Stack](http://mattwarren.org/2017/11/28/Exploring-the-BBC-microbit-Software-Stack/)
